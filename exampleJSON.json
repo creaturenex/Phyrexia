@@ -1,0 +1,189 @@
+{
+    "name": "Against All Odds",
+    "manaCost": "{3}{W}",
+    "cmc": 4,
+    "colors": [
+      "W"
+    ],
+    "colorIdentity": [
+      "W"
+    ],
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "rarity": "Uncommon",
+    "set": "ONE",
+    "setName": "Phyrexia: All Will Be One",
+    "text": "Choose one or both —\n• Exile target artifact or creature you control, then return it to the battlefield under its owner's control.\n• Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.",
+    "artist": "Rudy Siswanto",
+    "number": "1",
+    "layout": "normal",
+    "multiverseid": "602531",
+    "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=602531&type=card",
+    "foreignNames": [
+      {
+        "name": "Entgegen allen Erwartungen",
+        "text": "Bestimme eines oder beides —\n• Schicke ein Artefakt oder eine Kreatur deiner Wahl, das bzw. die du kontrollierst, ins Exil und bringe es bzw. sie dann unter der Kontrolle seines bzw. ihres Besitzers ins Spiel zurück.\n• Bringe eine Artefakt- oder Kreaturenkarte deiner Wahl mit Manabetrag 3 oder weniger aus deinem Friedhof ins Spiel zurück.",
+        "type": "Hexerei",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=602792&type=card",
+        "language": "German",
+        "identifiers": {
+          "scryfallId": "2d467a16-0b6f-4e2e-8744-4025fbaeffe8",
+          "multiverseId": 602792
+        },
+        "multiverseid": 602792
+      },
+      {
+        "name": "Contra todo pronóstico",
+        "text": "Elige uno o ambos:\n• Exilia el artefacto o criatura objetivo que controlas, luego regrésalo al campo de batalla bajo el control de su propietario.\n• Regresa la carta de artefacto o de criatura objetivo con valor de maná de 3 o menos de tu cementerio al campo de batalla.",
+        "type": "Conjuro",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=603053&type=card",
+        "language": "Spanish",
+        "identifiers": {
+          "scryfallId": "20f14962-3eff-4f3b-96c0-47919556c14b",
+          "multiverseId": 603053
+        },
+        "multiverseid": 603053
+      },
+      {
+        "name": "Contre toute attente",
+        "text": "Choisissez l'un ou les deux —\n• Exilez une cible que vous contrôlez, artefact ou créature, puis renvoyez-la sur le champ de bataille sous le contrôle de son propriétaire.\n• Renvoyez sur le champ de bataille, depuis votre cimetière, une carte d'artefact ou de créature ciblée avec une valeur de mana inférieure ou égale à 3.",
+        "type": "Rituel",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=603314&type=card",
+        "language": "French",
+        "identifiers": {
+          "scryfallId": "f1a2f741-c6d8-44fc-86fa-5de4c61e868c",
+          "multiverseId": 603314
+        },
+        "multiverseid": 603314
+      },
+      {
+        "name": "Contro Ogni Previsione",
+        "text": "Scegli uno o entrambi —\n• Esilia un artefatto o una creatura bersaglio che controlli, poi rimetti quel permanente sul campo di battaglia sotto il controllo del suo proprietario.\n• Rimetti sul campo di battaglia una carta creatura o artefatto bersaglio con valore di mana pari o inferiore a 3 dal tuo cimitero.",
+        "type": "Stregoneria",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=603575&type=card",
+        "language": "Italian",
+        "identifiers": {
+          "scryfallId": "025e3d9d-dc54-461c-bd79-d23d3e48c268",
+          "multiverseId": 603575
+        },
+        "multiverseid": 603575
+      },
+      {
+        "name": "万難を排して",
+        "text": "以下から１つまたは両方を選ぶ。\n・アーティファクトやクリーチャーのうちあなたがコントロールしている１つを対象とする。それを追放し、その後、オーナーのコントロール下で戦場に戻す。\n・あなたの墓地にありマナ総量が３以下でありアーティファクトやクリーチャーであるカード１枚を対象とする。それを戦場に戻す。",
+        "type": "ソーサリー",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=603836&type=card",
+        "language": "Japanese",
+        "identifiers": {
+          "scryfallId": "51a8a60b-e4c7-423a-939b-e102d6e4b0bc",
+          "multiverseId": 603836
+        },
+        "multiverseid": 603836
+      },
+      {
+        "name": "Contra Todas as Probabilidades",
+        "text": "Escolha um ou ambos —\n• Exile o artefato ou a criatura alvo que você controla e depois o/a devolva para o campo de batalha sob o controle de seu dono.\n• Devolva o card de artefato ou criatura alvo com valor de mana igual ou inferior a 3 de seu cemitério para o campo de batalha.",
+        "type": "Feitiço",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=604097&type=card",
+        "language": "Portuguese (Brazil)",
+        "identifiers": {
+          "scryfallId": "53e087d0-7598-4241-a37f-2f809a016ef8",
+          "multiverseId": 604097
+        },
+        "multiverseid": 604097
+      },
+      {
+        "name": "绝处逢生",
+        "text": "选择一项或都选～\n•放逐目标由你操控的神器或生物，然后将它在其拥有者的操控下移回战场。\n•将目标法术力值等于或小于3的神器或生物牌从你的坟墓场移回战场。",
+        "type": "法术",
+        "flavor": null,
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=604358&type=card",
+        "language": "Chinese Simplified",
+        "identifiers": {
+          "scryfallId": "d66012b5-cae3-4d0a-a256-47eff48ed441",
+          "multiverseId": 604358
+        },
+        "multiverseid": 604358
+      }
+    ],
+    "printings": [
+      "ONE"
+    ],
+    "originalText": "Choose one or both —\n• Exile target artifact or creature you control, then return it to the battlefield under its owner's control.\n• Return target artifact or creature card with mana value 3 or less from your graveyard to the battlefield.",
+    "originalType": "Sorcery",
+    "legalities": [
+      {
+        "format": "Alchemy",
+        "legality": "Legal"
+      },
+      {
+        "format": "Brawl",
+        "legality": "Legal"
+      },
+      {
+        "format": "Commander",
+        "legality": "Legal"
+      },
+      {
+        "format": "Duel",
+        "legality": "Legal"
+      },
+      {
+        "format": "Explorer",
+        "legality": "Legal"
+      },
+      {
+        "format": "Future",
+        "legality": "Legal"
+      },
+      {
+        "format": "Gladiator",
+        "legality": "Legal"
+      },
+      {
+        "format": "Historic",
+        "legality": "Legal"
+      },
+      {
+        "format": "Legacy",
+        "legality": "Legal"
+      },
+      {
+        "format": "Modern",
+        "legality": "Legal"
+      },
+      {
+        "format": "Oathbreaker",
+        "legality": "Legal"
+      },
+      {
+        "format": "Pioneer",
+        "legality": "Legal"
+      },
+      {
+        "format": "Standard",
+        "legality": "Legal"
+      },
+      {
+        "format": "Standardbrawl",
+        "legality": "Legal"
+      },
+      {
+        "format": "Timeless",
+        "legality": "Legal"
+      },
+      {
+        "format": "Vintage",
+        "legality": "Legal"
+      }
+    ],
+    "id": "7966a171-4458-5fb1-aa99-b8486938798a"
+  },

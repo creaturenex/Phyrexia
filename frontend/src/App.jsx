@@ -9,7 +9,8 @@ function App() {
 
       </div>
         <div className='window'>
-          <h2>Collection</h2>
+          <div><h2>Collection</h2></div>
+          
           <div className='card'>
 
           </div>

@@ -7,7 +7,7 @@ h2 {
 
 .sidebar {
   background-color: #303030;
-  box-shadow: 6px 0px rgb(0,0,0,0.1);
+  box-shadow: 8px 0 8px 4px rgb(0,0,0,0.1);
   color: #eee;
   width: 25vw;
   height: 100vh;
@@ -34,4 +34,9 @@ h2 {
   margin-top: 64px;
   margin-left: 16px;
   border-radius: 10px;
+}
+
+.bg-black {
+  background-color: #303030;
+  background-image: url("./assets/Norn.jpg");
 }
