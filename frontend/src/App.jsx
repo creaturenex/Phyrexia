@@ -1,4 +1,5 @@
 import "./App.css";
+import CardContainer from "./components/CardContainer";
 
 function App() {
    return (
@@ -23,16 +24,7 @@ function App() {
               <input></input>
             </form>
           </div>
-          <div className="cardDisplay">
-            <div>
-              <h3>Creatures</h3>
-              { }
-            </div>
-            <div>
-              <h3>Instants</h3>
-                <div className="card">Card 1</div>
-            </div>
-          </div>
+          < CardContainer />
         </div>
       </div>
     </>
