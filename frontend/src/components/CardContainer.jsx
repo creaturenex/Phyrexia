@@ -11,11 +11,11 @@ export default function CardContainer() {
     setIsLoading(true)
     fetch(url)
       .then((result) => {
-        result.json()
+        return result.json()
       })
       .then((data) => {
-        console.log(data)
-        setCards(data)
+        console.log(data.set)
+        setCards(data.set)
         setIsLoading(false)
       })
   }, [])
@@ -26,11 +26,9 @@ export default function CardContainer() {
         <div>
           <h3>Creatures</h3>
           <div className="cardType">  { cards.map((card, i) => (
-            <Card key={i} imgUrl={card.imageUrl} />
+            <Card key={i} id={i} imgUrl={card.imageUrl} />
           ))}
           </div>
-        
-      
         </div>
         <div>
           <h3>Instants</h3>

@@ -6,7 +6,7 @@ module.exports = {
     try {
       mtg.card.all({set: "ONE"})
         .on('data', (card) => {
-          cards.push({
+          const tempCard = {
             "name": card.name,
             "manaCost": card.manaCost,
             "cmc": card.cmc,
@@ -21,13 +21,13 @@ module.exports = {
             "power": card.power,
             "toughness": card.toughness,
             "layout": card.layout,
-            "imageUrl": card.imageUrl
-            })
+            "imageUrl": card.imageUrl,
+            "layout": card.layout
+            }
+          if (!card.variations) tempCard[variations] = card.variations
+          cards.push(tempCard)
         })
         .on('end', () => {
-          // fs.writeFile("cards.txt", cards, ()=>{
-          //   console.log('Done writing')
-          // })
           res.locals.set = cards
           next()
         })    

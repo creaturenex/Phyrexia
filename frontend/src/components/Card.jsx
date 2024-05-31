@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "../App.css"
 
-export default function Card ({ imgUrl }) {
+export default function Card ({ id, imgUrl }) {
   const [hidden, setHidden] = useState(false)
 
   const toggleVis = () => {
@@ -9,7 +9,7 @@ export default function Card ({ imgUrl }) {
   }
   return (
     <>
-      <div className="card" onClick={toggleVis}>
+      <div className="card" id={id} onClick={toggleVis}>
         <img src={imgUrl}/>
       </div>
       {/* <div className="modal" onClick={toggleVis} style={{ "display": hidden ? "block":"none"}}>
