@@ -10,7 +10,9 @@ export default function CardContainer() {
   useEffect (() => {
     setIsLoading(true)
     fetch(url)
-      .then((result) => result.json())
+      .then((result) => {
+        result.json()
+      })
       .then((data) => {
         console.log(data)
         setCards(data)
