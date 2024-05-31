@@ -1,6 +1,13 @@
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [hidden, setHidden] = useState(false)
+
+  const toggleVis = () => {
+    setHidden(!hidden)
+  }
+
   return (
     <>
       <div className="container">
@@ -26,14 +33,15 @@ function App() {
           <div className="cardDisplay">
             <div>
               <h3>Creatures</h3>
-                <div className="card">Card 1</div>
+              <div className="card" onClick={toggleVis}>Card 1</div>
+              <div className="modal" onClick={toggleVis} style={{ "display": hidden ? "block":"none"}}>
+                <p className="modal-content">
+                Some text in the Modal..
+                </p>
+              </div>
             </div>
             <div>
               <h3>Instants</h3>
-                <div className="card">Card 1</div>
-            </div>
-            <div>
-              <h3>Sorceries</h3>
                 <div className="card">Card 1</div>
             </div>
           </div>
