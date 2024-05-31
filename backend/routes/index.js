@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/cards', cardsController.fetchCards, function(req, res, next) {
-  
+  res.setHeader('Content-Type', 'application/json')
   res.status(200).send(res.locals.set)
 });
 
