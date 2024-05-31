@@ -24,13 +24,16 @@ module.exports = {
             "imageUrl": card.imageUrl,
             "layout": card.layout
             }
+            /**
+             * Need to see if this a valid property
+             */
           if (!card.variations) tempCard[variations] = card.variations
           cards.push(tempCard)
         })
         .on('end', () => {
           res.locals.set = cards
           next()
-        })    
+        })   
     } catch (err) {
       return next(err)
     }
