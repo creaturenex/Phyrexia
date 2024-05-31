@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/cards', cardsController.getCards, function(req, res, next) {
+router.get('/cards', cardsController.fetchCards, function(req, res, next) {
   
   res.status(200).send(res.locals.set)
 });
