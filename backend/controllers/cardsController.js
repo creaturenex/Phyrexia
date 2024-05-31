@@ -3,7 +3,7 @@ const mtg = require("mtgsdk")
 module.exports = {
   fetchCards: async function (req, res, next) {
     try {
-      const result = await mtg.card.where({set: "ONE",})
+      const result = await mtg.card.where({set: "ONE",}).all
       res.locals.set = await result.map(card => {
         return {
           "name": card.name,

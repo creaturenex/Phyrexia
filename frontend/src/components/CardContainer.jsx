@@ -9,13 +9,13 @@ export default function CardContainer() {
   
   useEffect (() => {
     setIsLoading(true)
-    fetch(url).then((result) => {
-      console.log(result)
-      result.json()
-    }).then((data) => {
-      setCards(data)
-      setIsLoading(false)
-    })
+    fetch(url)
+      .then((result) => result.json())
+      .then((data) => {
+        console.log(data)
+        setCards(data)
+        setIsLoading(false)
+      })
   }, [])
   
   return (
@@ -23,11 +23,12 @@ export default function CardContainer() {
       <div className="cardDisplay">
         <div>
           <h3>Creatures</h3>
-          <p>{cards}</p>
-          {/* { isLoading ? <p>Loading</p> : ( cards.map( (card, i) => {
-                return <Card key={i}/>
-              }))
-            } */}
+          <div className="cardType">  { cards.map((card, i) => (
+            <Card key={i} imgUrl={card.imageUrl} />
+          ))}
+          </div>
+        
+      
         </div>
         <div>
           <h3>Instants</h3>

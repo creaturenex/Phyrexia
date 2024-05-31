@@ -29,7 +29,7 @@ box-shadow: 0 0 10px #303FA9;
 
 .sidebar {
   background-color: #303030;
-  box-shadow: 8px 0 8px 4px rgb(0,0,0,0.1);
+  box-shadow: 8px 0 8px 4px rgb(0,0,0,0.3);
   color: #eee;
   width: 25vw;
   max-width: 300px;
@@ -54,17 +54,25 @@ box-shadow: 0 0 10px #303FA9;
 }
 
 .cardDisplay {
-  background-color: #303030;
   padding: 8px;
   overflow-y: auto;
   height: 79vh;
   width: 100%;
+  border-radius: 8px;
+  margin: 8px
+}
+
+.cardType{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 100vw;
 }
 
 .card {
-  width: 240px;
-  height: 336px;
-  background-color: rgb(0,0,0,0.5);
+  width: 265px;
+  height: 370px;
+  background-color: rgb(0,0,255,0.7);
   margin-top: 16px;
   margin-left: 16px;
   border-radius: 10px;
